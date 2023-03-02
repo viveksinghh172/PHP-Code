@@ -1,0 +1,245 @@
+.logodiv
+{
+	background-color:  	#800000;
+	padding-left: 90px;
+	height: 72px;	
+	box-shadow: 5px 1px 10px #888888;
+}
+
+.navdiv
+{
+	margin: 0;
+	padding: 0;
+	height: 72px;
+	background-color: #FFCC00;
+}
+.navlink
+{
+	/*background-color: red;*/
+	border-radius: 20px;
+	font-weight: bolder;
+}
+
+.navlink:hover
+{
+	background-color: white;
+	border-radius: 20px;
+}
+.navitem
+{
+	/*padding-left: 10px;*/
+	padding-right: 10px;
+	/*height: 55px;*/
+	width: 140px;
+	text-align: center;
+	/*top:20px;*/
+}
+.dropdown
+{
+	/*height: 60px;*/
+	position: relative;
+    display: inline-block;
+}
+.dropdown-content
+{
+	/*top:60px;*/
+	display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #f1f1f1;
+    /*min-width: 160px;*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+.dropdown-content a
+{
+	display: block;
+}
+.dropdown:hover .dropdown-content {display: block;}
+
+.column1
+{
+	/*background-color: red;*/
+	padding: 11.5px;
+	font-size: 18px;
+}
+.column2
+{
+	/*background-color: yellow;*/
+	padding: 11.5px;
+	font-size: 18px;
+}
+.column3
+{
+	/*background-color: red;*/
+	padding: 11.5px;
+	font-size: 18px;
+}
+.row1
+{
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/*LOGIN PAGE STARTS HERE*/
+.loginimage
+{
+	background-image: url('../images/back1.jpg');
+	height: 550px;
+	background-size: 100% 100%;
+}
+
+.headpara
+{
+	font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+}
+/*LOGIN PAGE ENDS HERE*/
+
+/*SIGN UP STARTS HERE*/
+.signupcontainer
+{
+	background-image: url('../images/back.jpg');
+}
+/*SIGNUP ENDS HERE*/
+
+/*Slider strats*/
+/*.slider
+{
+	height: 550px;
+}*/
+.sliderheading
+{
+	font-size: 60px;
+	/*font-family: 'Dancing Script', cursive;*/
+	/*font-family: 'Lobster', cursive;*/
+	/*font-family: 'Great Vibes', cursive;*/
+    /*font-family: 'Satisfy', cursive;*/
+    /*font-family: 'Marck Script', cursive;*/
+    font-family: 'Bad Script', cursive;
+    /*font-family: 'Homemade Apple', cursive;*/
+    /*font-family: 'Alex Brush', cursive;*/
+    /*font-family: 'Niconne', cursive;*/
+    /*font-family: 'Berkshire Swash', cursive;*/
+    /*font-family: 'Petit Formal Script', cursive;*/
+}
+.sliderhead
+{
+	top:100px;
+}
+.slidertext
+{
+	font-size: 20px;
+}
+/*Slider ends*/
+
+.headdd
+{
+	font-family: 'Bad Script', cursive;
+   	text-shadow: 2px 2px 2px  maroon;
+   	font-weight: bold;
+}
+
+.imagesize
+{
+	height: 220px;
+}
+
+
+/**/
+/*.downdiv
+{
+	height: 80px;
+	background-color: pink;	
+}*/
+.iconcol
+{
+	height: 50px;
+	background-color: red;
+	font-size: 30px;	
+}
+.iconcol:hover
+{
+	height: 50px;
+	background-color: olive;
+}
+.textcol
+{
+	font-size: 30px;
+	height: 50px;
+	background-color: #FFCC00;
+}
+.textcol:hover
+{
+	height: 50px;
+	background-color: lightblue;
+}
+/**/
+
+.header1
+{
+	font-size:40px;
+}
+.color_head
+{
+	background-color: #1E90FF !important;
+}
+
+/*Category CSS*/
+
+
+.head
+{
+	text-align: center;
+	font-size: 180%;
+	/*font-family: 'Crete Round', serif;*/
+	color: #202020;
+	font-family: 'Bad Script', cursive;
+   	text-shadow: 2px 2px 2px  maroon;
+   	font-weight: bold;
+	
+}
+
+.row2
+{
+	margin-top: 3%;
+}
+
+.col6
+{
+	background-color: white;
+	margin-right: 2%;
+	font-family: 'EB Garamond', serif;
+	color:#383838;
+
+}
+.col61
+{
+	background-color: white;
+	margin-left: 2%;
+	font-family: 'EB Garamond', serif;
+	color:#383838;
+
+}
+
+.web
+{
+	margin-top: 8%;
+}
+/*
+img
+{
+	width: 70%;
+	padding-right: 5%;;
+}*/
+.lang
+{
+	font-family:  serif;
+}
+.category2
+{
+	background-color: #e8e8e8;
+}
+/*CATEGORY CSS END*/
+
+
+/* for profile pic */

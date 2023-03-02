@@ -1,0 +1,280 @@
+/*body*/
+body
+{
+    background-image:url(../images/bg.jpg);
+    color: blue;
+    margin: 5px;
+    padding: 0px;
+    text-align: justify;
+}
+body p
+{
+    font-size: 1.1em;
+}
+body label
+{
+    color: red;
+}
+
+body span
+{
+   color: #cddc39; 
+}
+
+#head
+{
+    font-size: 3.0em;
+    font-family: Oxygen,serif;
+}
+
+#head1
+{
+  color: #cddc39;  
+}
+
+
+/*sidebar*/
+#sidebar {
+    background: #f0e68c;
+    padding: 2px;
+    border: 1px solid black;
+    position :relative;
+    width: 165px;
+    min-height: 280px;
+    float: right;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 10s infinite;
+}
+
+
+#menu
+{
+padding: 5px;
+margin: 5px;
+}
+
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+}
+
+
+.button_menu {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+  padding: 15px;
+  width: 213px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.button1
+{
+    background-color: navy;
+    color: white;
+    border: 1px solid #008CBA;
+}
+.button1:hover {
+    background-color: #673ab7;
+    color: white;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 1px solid #46b8da;
+    width: 90px;
+    height: 50px;
+    padding: 0px;
+}
+
+.button2:hover {
+    background-color: darkseagreen;
+    color: white;
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button2 {border-radius: 15px;}
+
+
+.button_menu span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  transition: all 0.5s;
+}
+
+.button_menu span:hover
+{
+ color: white;   
+}
+
+.button_menu span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button_menu:hover span {
+  padding-right: 25px;
+}
+
+.button_menu:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    75%  {top: 50px}
+    100% {top: 100px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    75%  {top: 50px}
+    100% {top: 100px;}
+}
+
+
+/*content*/
+#content
+{
+    width: 950px;
+    min-height: 485px;
+    margin: 0px auto;
+    padding:  05px 0px 20px 0px;
+}
+#content h2, #content h3, #content h4, #content h5, #content h6 {
+	font-weight: normal;
+}
+#content p, #content ul, #content ol {
+	line-height: 150%;
+        font-size: 1.0em;
+        
+}
+
+
+
+/*login*/
+
+
+#head-logo {
+    color: #555555;
+    display: block;
+    font-family: fontawesome,serif;
+    font-size: 50px;
+    letter-spacing: 3px;
+    line-height: 1;
+    padding: 5px;
+    position: absolute;
+    text-decoration: none;
+    top: 10px;
+    border: 1px solid;
+    border-color: white;
+    background-color: white;
+    border-radius: 10px;
+    margin: justify;
+    background-image: url('');
+}
+#head-logo .dotcom {
+    color: #4caf50;
+}
+#head-logo:hover {
+    color: gold;
+}
+
+#loginbox1 {
+  width: 500px;
+  height: 345px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 50px;
+  padding: 16px;
+  background-color: white;
+  opacity: 1;
+}
+#loginbox2 {
+  width: 700px;
+  height: 900px;
+  margin-left: 150px;
+  margin-right: 250px;
+  margin-bottom: 50px;
+  padding: 16px;
+  background-color: white;
+  opacity: 1;
+}
+#register
+{
+    width: 200px;
+}
+.pad
+{
+    margin: 5px;
+}
+.error
+{
+   font-family: fantasy,serif;
+   font-size: 1.5em;
+   color: red; 
+}
+
+#status p
+{
+    font-family: fantasy,serif;
+    font-size: 1.5em;
+    color: red;
+}
+#menu
+{
+    width: 100%;
+    margin: 0px auto;
+    padding: 5px 0px 6px 0px;
+    margin-bottom: 5px;
+    
+}
+#menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+#menu li
+{
+    display: inline;
+    padding: 8px;
+    
+    
+}
